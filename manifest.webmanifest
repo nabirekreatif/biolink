@@ -1,0 +1,63 @@
+{
+  "name": "Acc Cell — Handphone Store Nabire & Serui",
+  "short_name": "Acc Cell",
+  "description": "Link bio resmi Acc Cell: katalog HP, rekening & QRIS resmi, servis & tukar tambah.",
+  "id": "./",
+  "start_url": "./#/",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#F5F5F7",
+  "theme_color": "#F9B54C",
+  "lang": "id",
+  "categories": [
+    "shopping",
+    "business"
+  ],
+  "icons": [
+    {
+      "src": "assets/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "assets/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "assets/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Katalog Produk",
+      "url": "./#/katalog",
+      "icons": [
+        {
+          "src": "assets/icon-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "Rekening & QRIS",
+      "url": "./#/bayar",
+      "icons": [
+        {
+          "src": "assets/icon-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    }
+  ],
+  "display_override": [
+    "standalone",
+    "minimal-ui"
+  ]
+}
